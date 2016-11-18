@@ -8,3 +8,27 @@ h1, h2, h3, h4, h5, h6 {
   color: purple;
   text-align: center;
 }
+a {
+  color: purple;
+  text-decoration: none;
+}
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: dodgerblue;
+}
+.nav li {
+  float: left;
+}
+.nav li a {
+  color: purple;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav li a:hover {
+  background-color: #1a8cff;
+}
